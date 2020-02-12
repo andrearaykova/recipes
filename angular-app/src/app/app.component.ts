@@ -15,5 +15,4 @@ export class AppComponent implements OnInit {
       authDomain: "recipes-28a38.firebase.com",
     })
   }
-
 }
