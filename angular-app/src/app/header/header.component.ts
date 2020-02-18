@@ -15,6 +15,7 @@ export class HeaderComponent implements OnInit {
   ngOnInit() {
   }
 
+  
   expand() {
     this.dropdownLi.endsWith('show') 
     ? this.dropdownLi = "nav-item dropdown" 
