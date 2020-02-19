@@ -1,0 +1,29 @@
+.row {
+    padding: 1rem;
+    text-decoration: none;
+    color: inherit;
+}
+
+.gallery {
+    display: table;
+    flex-wrap: wrap;
+    padding: 0.2em;  
+}
+
+.pull-left h4 {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.pull-left p {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pull-right img {
+    float:  left;
+    width:  100px;
+    height: 100px;
+    background-size: cover;
+}

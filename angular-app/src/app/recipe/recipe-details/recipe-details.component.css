@@ -4,9 +4,11 @@
 }
 
 img {
- display: block;
- width: 50%;
- height: auto;
+    padding:1px;
+    border:1px solid #021a40;
+    display: block;
+    width: 70%;
+    height: auto;
 }
 
 ul {
@@ -15,7 +17,7 @@ ul {
 }
 
 ul li {
- padding: 1.5rem;
+ padding: 0.8rem;
 }
 
 .edit a {
