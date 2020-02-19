@@ -1,0 +1,32 @@
+.row {
+ margin: 1.5rem 0 0 23rem;
+ display: flex;
+}
+
+img {
+ display: block;
+ width: 50%;
+ height: auto;
+}
+
+ul {
+ display: flex;
+ list-style-type: none;
+}
+
+ul li {
+ padding: 1.5rem;
+}
+
+.edit a {
+ text-decoration: none;
+ color: inherit;
+}
+
+.edit:hover {
+   color: rgb(21, 127, 251);
+}
+
+.delete:hover {
+   color: red;
+}

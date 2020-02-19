@@ -1,0 +1,14 @@
+.row {
+    margin: 1.5rem 0 0 14rem;
+    display: flex;
+}
+  
+img {
+    display: block;
+    width: 50%;
+    height: auto;
+}
+  
+button {
+    margin-left: 19rem;
+}
