@@ -1,5 +1,9 @@
+nav {
+    font-family: 'Simonetta', cursive;
+}
+
 .navbar-nav {
-margin-left: 60rem;
+    margin-left: 60rem;
 }
 
 .navbar-dark .navbar-brand {

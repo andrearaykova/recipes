@@ -1,7 +1,8 @@
-<div>
+<link href="https://fonts.googleapis.com/css?family=Lacquer&display=swap" rel="stylesheet"><div>
     <div class="container">
         <div *ngFor="let recipe of recipes | async" class="gallery">
             <img src="{{recipe.imagePath}}" alt="{{recipe.name}}" class="img-responsive">
+            <h4 class="list-group-item-heading">{{recipe.name}}</h4>
         </div>
     </div>
     <h1>If it looks tasty and you want to find out <a routerLink="/recipes/list">more</a>!</h1>

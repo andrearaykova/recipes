@@ -1,28 +1,43 @@
+.container {
+   margin: auto;
+   width: 100%;
+   padding: 20px;
+}
+
 .row {
- margin: 1.5rem 0 0 23rem;
- display: flex;
+   margin: 1.5rem 0 0 28rem;
+   display: flex;
+   text-align: center;
 }
 
 img {
-    padding:1px;
-    border:1px solid #021a40;
-    display: block;
-    width: 70%;
-    height: auto;
+   padding: 1px;
+   border: 1px solid #021a40;
+   display: block;
+   width: auto;
+   height: 70%;
+}
+
+.description {
+   margin-top: -4rem;
+   text-align: center;
 }
 
 ul {
- display: flex;
- list-style-type: none;
+   /* display: flex; */
+   list-style-type: none;
+   text-align: center;
+   margin-left: -0.5rem;
+   margin-top: -3rem;
 }
 
 ul li {
- padding: 0.8rem;
+   padding: 0.8rem;
 }
 
 .edit a {
- text-decoration: none;
- color: inherit;
+   text-decoration: none;
+   color: inherit;
 }
 
 .edit:hover {

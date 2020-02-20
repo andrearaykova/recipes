@@ -1,4 +1,4 @@
-<div *ngIf="recipe">
+<div *ngIf="recipe" class="container">
   <div class="row">
     <div class="col-xs-12">
       <h1>{{recipe.name}}</h1>
@@ -10,7 +10,7 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-xs-12">
+    <div class="description">
       {{recipe.description}}
     </div>
   </div>
@@ -22,5 +22,4 @@
       </ul>
     </div>
   </div>
-
 </div>
