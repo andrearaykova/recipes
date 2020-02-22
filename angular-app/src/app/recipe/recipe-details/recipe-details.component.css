@@ -21,14 +21,14 @@ img {
 .description {
    margin-top: -4rem;
    text-align: center;
+   width: 12rem;
 }
 
 ul {
-   /* display: flex; */
    list-style-type: none;
    text-align: center;
    margin-left: -0.5rem;
-   margin-top: -3rem;
+   /* margin-top: -3rem; */
 }
 
 ul li {
